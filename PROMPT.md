@@ -1,5 +1,7 @@
 # Final Prompt: Seven Continents Travel & Tours Website
 
+> Current direction (29 October 2026): the user has authorized a complete UI/UX and motion improvement across both pages and explicitly requested restoration of the first implementation's contact details and removed content. This supersedes the older placeholder-only contact instructions and staged approval pauses below. Preserve the original services, mission, vision, values, competencies, gallery and planner fields. Restore the original address, phone and social links; record client-confirmation needs in README.md. Keep motion responsive to pointer, touch and keyboard input, and respect reduced-motion preferences.
+
 > Save this file in the project root (for example as `PROMPT.md` or `AGENTS.md`). Follow it exactly and work in the stages described at the end.
 
 ## Role

@@ -43,11 +43,17 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Playfair+Display:wght@600;700&amp;display=swap"
       rel="stylesheet"
     >
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="js/main.js" defer></script>
+    <link rel="stylesheet" href="css/styles.css?v=20261029-2">
+    <script src="js/main.js?v=20261029-2" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to main content</a>
+    <div class="utility-bar">
+      <div class="container utility-inner">
+        <span>Your Personal Travel Partners</span>
+        <a href="tel:+63283643904">Let’s talk travel <span aria-hidden="true">·</span> 02 8364 3904</a>
+      </div>
+    </div>
 
     <header class="site-header" data-site-header>
       <div class="container header-inner">
@@ -83,7 +89,7 @@
           <a href="index.html#services">Services</a>
           <a href="gallery.html">Gallery</a>
           <a href="index.html#contact">Contact</a>
-          <a class="button button-primary nav-cta" href="index.html#inquire">Inquire Now</a>
+          <a class="button button-primary nav-cta" href="index.html#inquire">Plan my trip <span aria-hidden="true">↗</span></a>
         </nav>
       </div>
     </header>
@@ -105,16 +111,121 @@
         </div>
         <div class="hero-overlay"></div>
         <div class="container hero-content">
-          <h1 id="hero-title">Your Personal Travel Partners</h1>
-          <p>Seven Continents Travel and Tours (SCTT) is formed out of passion for travel and customer service.</p>
-          <a class="button button-primary" href="#inquire">Inquire Now</a>
+          <p class="eyebrow">Seven Continents Travel &amp; Tours</p>
+          <h1 id="hero-title">The world awaits.<br><em>Let’s make it yours.</em></h1>
+          <p class="hero-description">Personally planned travel, from the first idea to the finer details. Flights, stays, tours and more, thoughtfully brought together for you.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#inquire">Plan my trip <span aria-hidden="true">↗</span></a>
+            <a class="hero-secondary" href="#inspiration">Find your inspiration <span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+        <div class="container hero-footnote">
+          <span>Machu Picchu, Peru <span aria-hidden="true">—</span> One of many places to begin.</span>
+          <a href="#inspiration" aria-label="Scroll to travel inspiration">Explore a little further <span aria-hidden="true">↓</span></a>
+        </div>
+      </section>
+
+      <div class="planning-strip">
+        <div class="container planning-strip-inner">
+          <span>A personal approach to every journey.</span>
+          <a href="#services">Travel arrangements <span aria-hidden="true">↗</span></a>
+          <a href="#about">People behind the planning <span aria-hidden="true">↗</span></a>
+          <a href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+
+      <section class="section gallery-preview-section" id="inspiration" aria-labelledby="gallery-preview-title">
+        <div class="container">
+          <div class="section-heading gallery-preview-heading reveal">
+            <div>
+              <p class="eyebrow">The destination gallery</p>
+              <h2 id="gallery-preview-title">Where will you<br><em>go next?</em></h2>
+            </div>
+            <div class="gallery-preview-copy">
+              <p>A quiet shoreline. A city full of stories. Somewhere entirely new. A little inspiration for your next conversation with us.</p>
+              <a class="text-link" href="gallery.html">View the full gallery <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+
+          <div class="gallery-preview-grid reveal">
+            <a class="preview-card" href="gallery.html?region=philippines">
+              <img
+                src="images/optimized/imgi_7_philippines-2.webp"
+                alt="White-sand beach and turquoise water in the Philippines"
+                width="1600"
+                height="614"
+                loading="lazy"
+                decoding="async"
+              >
+              <span>Philippines</span>
+            </a>
+            <a class="preview-card" href="gallery.html?region=asia">
+              <img
+                src="images/optimized/imgi_9_asia-1.webp"
+                alt="Boats crossing a bay surrounded by limestone formations in Asia"
+                width="1600"
+                height="614"
+                loading="lazy"
+                decoding="async"
+              >
+              <span>Asia</span>
+            </a>
+            <a class="preview-card" href="gallery.html?region=africa-antarctica">
+              <img
+                src="images/optimized/imgi_12_africa-antartica-1.webp"
+                alt="Lioness resting in a tree in Africa"
+                width="1600"
+                height="614"
+                loading="lazy"
+                decoding="async"
+              >
+              <span>Africa &amp; Antarctica</span>
+            </a>
+            <a class="preview-card preview-position-left" href="gallery.html?region=americas">
+              <img
+                src="images/optimized/imgi_17_america-3.webp"
+                alt="Machu Picchu surrounded by mist-covered mountains"
+                width="1600"
+                height="614"
+                loading="lazy"
+                decoding="async"
+              >
+              <span>Americas</span>
+            </a>
+            <a class="preview-card" href="gallery.html?region=australia">
+              <img
+                src="images/optimized/imgi_18_australia-1.webp"
+                alt="Sydney Opera House illuminated at night"
+                width="1600"
+                height="614"
+                loading="lazy"
+                decoding="async"
+              >
+              <span>Australia</span>
+            </a>
+            <a class="preview-card" href="gallery.html?region=europe">
+              <img
+                src="images/optimized/imgi_22_europe-2.webp"
+                alt="Gondola traveling along a canal in Venice"
+                width="1600"
+                height="614"
+                loading="lazy"
+                decoding="async"
+              >
+              <span>Europe</span>
+            </a>
+          </div>
+          <p class="inspiration-note">Destination inspiration, thoughtfully collected. These photographs are not advertised tour packages.</p>
         </div>
       </section>
 
       <section class="section about-section" id="about" aria-labelledby="about-title">
         <div class="container about-layout">
           <div class="section-heading reveal">
+            <p class="eyebrow">Your Personal Travel Partners</p>
             <h2 id="about-title">About Us</h2>
+            <p class="section-lead">Good journeys begin<br>with a personal connection.</p>
+            <a class="text-link" href="#contact">Meet your next travel partner <span aria-hidden="true">↗</span></a>
           </div>
           <div class="about-copy reveal">
             <p>
@@ -128,6 +239,9 @@
               operators, transport service providers and travel insurance companies, has given the company the edge
               to provide their customers with competitively priced, quality products.
             </p>
+            <figure class="about-image reveal">
+              <img src="images/optimized/imgi_22_europe-2.webp" alt="A gondola on a canal in Venice, Italy" width="1600" height="614" loading="lazy" decoding="async">
+            </figure>
           </div>
         </div>
       </section>
@@ -135,6 +249,7 @@
       <section class="section purpose-section" id="mission-vision" aria-labelledby="purpose-title">
         <div class="container">
           <div class="section-heading section-heading-centered section-heading-light reveal">
+            <p class="eyebrow">The purpose behind the planning</p>
             <h2 id="purpose-title">Mission &amp; Vision</h2>
           </div>
 
@@ -172,6 +287,7 @@
       <section class="section values-section" id="values" aria-labelledby="values-title">
         <div class="container">
           <div class="section-heading section-heading-centered reveal">
+            <p class="eyebrow">What stays with us</p>
             <h2 id="values-title">Core Values</h2>
           </div>
 
@@ -280,7 +396,9 @@
       <section class="section services-section" id="services" aria-labelledby="services-title">
         <div class="container">
           <div class="section-heading section-heading-centered reveal">
-            <h2 id="services-title">Services</h2>
+            <p class="eyebrow">The details, taken care of</p>
+            <h2 id="services-title">A little help.<br>A much better journey.</h2>
+            <p class="section-description">Our services bring your travel plans together. Tell us what you need, and we’ll help with the arrangements.</p>
           </div>
 
           <div class="services-grid">
@@ -296,6 +414,7 @@
               </div>
               <h3>Air, Sea and Land Travel Reservations</h3>
               <p>Reservations for your flights, sea voyages and land travel.</p>
+              <a class="text-link service-link" href="#inquire" data-service="Air, Sea and Land Travel Reservations">Enquire about reservations <span aria-hidden="true">↗</span></a>
             </article>
 
             <article class="service-card reveal">
@@ -309,6 +428,7 @@
               </div>
               <h3>Hotel Bookings</h3>
               <p>Hotel stays booked to suit your trip.</p>
+              <a class="text-link service-link" href="#inquire" data-service="Hotel Bookings">Find a place to stay <span aria-hidden="true">↗</span></a>
             </article>
 
             <article class="service-card reveal">
@@ -322,6 +442,7 @@
               </div>
               <h3>Ticketing/E-Tickets</h3>
               <p>Tickets and e-tickets issued and managed for you.</p>
+              <a class="text-link service-link" href="#inquire" data-service="Ticketing/E-Tickets">Ask about tickets <span aria-hidden="true">↗</span></a>
             </article>
 
             <article class="service-card reveal">
@@ -336,6 +457,7 @@
               </div>
               <h3>Travel Documentation Services</h3>
               <p>Help preparing the documents your trip requires.</p>
+              <a class="text-link service-link" href="#inquire" data-service="Travel Documentation Services">Get documentation help <span aria-hidden="true">↗</span></a>
             </article>
 
             <article class="service-card reveal">
@@ -349,6 +471,7 @@
               </div>
               <h3>Ground Transportation (Car/Bus Rentals, Train Tickets)</h3>
               <p>Car and bus rentals and train tickets, arranged for you.</p>
+              <a class="text-link service-link" href="#inquire" data-service="Ground Transportation">Arrange your transport <span aria-hidden="true">↗</span></a>
             </article>
 
             <article class="service-card reveal">
@@ -359,6 +482,7 @@
               </div>
               <h3>Domestic Flights/Packaged Tours</h3>
               <p>Domestic flights and ready-made tour packages.</p>
+              <a class="text-link service-link" href="#inquire" data-service="Domestic Flights/Packaged Tours">Plan a local escape <span aria-hidden="true">↗</span></a>
             </article>
 
             <article class="service-card reveal">
@@ -371,6 +495,7 @@
               </div>
               <h3>Foreign Tours/Land Arrangements</h3>
               <p>Foreign tours with land arrangements handled for you.</p>
+              <a class="text-link service-link" href="#inquire" data-service="Foreign Tours/Land Arrangements">Plan an overseas trip <span aria-hidden="true">↗</span></a>
             </article>
 
             <article class="service-card reveal">
@@ -382,86 +507,24 @@
               </div>
               <h3>Travel Insurance</h3>
               <p>Travel insurance arranged for your journey.</p>
+              <a class="text-link service-link" href="#inquire" data-service="Travel Insurance">Ask about cover <span aria-hidden="true">↗</span></a>
             </article>
           </div>
         </div>
       </section>
 
-      <section class="section gallery-preview-section" aria-labelledby="gallery-preview-title">
-        <div class="container">
-          <div class="section-heading gallery-preview-heading reveal">
-            <h2 id="gallery-preview-title">Gallery</h2>
-            <a class="text-link" href="gallery.html">View Full Gallery</a>
-          </div>
 
-          <div class="gallery-preview-grid reveal">
-            <a class="preview-card" href="gallery.html?region=philippines">
-              <img
-                src="images/optimized/imgi_7_philippines-2.webp"
-                alt="White-sand beach and turquoise water in the Philippines"
-                width="1600"
-                height="614"
-                loading="lazy"
-                decoding="async"
-              >
-              <span>Philippines</span>
-            </a>
-            <a class="preview-card" href="gallery.html?region=asia">
-              <img
-                src="images/optimized/imgi_9_asia-1.webp"
-                alt="Boats crossing a bay surrounded by limestone formations in Asia"
-                width="1600"
-                height="614"
-                loading="lazy"
-                decoding="async"
-              >
-              <span>Asia</span>
-            </a>
-            <a class="preview-card" href="gallery.html?region=africa-antarctica">
-              <img
-                src="images/optimized/imgi_12_africa-antartica-1.webp"
-                alt="Lioness resting in a tree in Africa"
-                width="1600"
-                height="614"
-                loading="lazy"
-                decoding="async"
-              >
-              <span>Africa &amp; Antarctica</span>
-            </a>
-            <a class="preview-card preview-position-left" href="gallery.html?region=americas">
-              <img
-                src="images/optimized/imgi_17_america-3.webp"
-                alt="Machu Picchu surrounded by mist-covered mountains"
-                width="1600"
-                height="614"
-                loading="lazy"
-                decoding="async"
-              >
-              <span>Americas</span>
-            </a>
-            <a class="preview-card" href="gallery.html?region=australia">
-              <img
-                src="images/optimized/imgi_18_australia-1.webp"
-                alt="Sydney Opera House illuminated at night"
-                width="1600"
-                height="614"
-                loading="lazy"
-                decoding="async"
-              >
-              <span>Australia</span>
-            </a>
-            <a class="preview-card" href="gallery.html?region=europe">
-              <img
-                src="images/optimized/imgi_22_europe-2.webp"
-                alt="Gondola traveling along a canal in Venice"
-                width="1600"
-                height="614"
-                loading="lazy"
-                decoding="async"
-              >
-              <span>Europe</span>
-            </a>
+      <section class="section journey-section" aria-labelledby="journey-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Make room for the journey</p>
+            <h2 id="journey-title">A few ideas.<br>A conversation. A plan.</h2>
           </div>
+          <ol class="journey-steps">
+            <li><div><h3>Start with a little inspiration</h3><p>Have a destination in mind, or just a reason to get away? Both are a good place to start.</p></div></li>
+            <li><div><h3>Tell us what matters</h3><p>Share your dates, travel companions and the arrangements you need help with.</p></div></li>
+            <li><div><h3>Talk through the details</h3><p>Discuss flights, stays, transport and travel requirements with your personal travel partners.</p></div></li>
+          </ol>
         </div>
       </section>
 
@@ -469,9 +532,15 @@
         <div class="container inquiry-layout">
           <div class="inquiry-form-panel reveal">
             <div class="section-heading inquiry-heading">
-              <h2 id="inquiry-title">Inquiry</h2>
-              <p>All fields are required.</p>
+              <p class="eyebrow">Let’s start a conversation</p>
+              <h2 id="inquiry-title">Your next journey<br>starts here.</h2>
+              <p>Call us or enquire on Facebook. If you’d like to put your ideas together first, use the trip planner below.</p>
             </div>
+            <div class="contact-actions">
+              <a class="button button-primary" href="https://www.facebook.com/sevencontinentstravelandtours" target="_blank" rel="noopener noreferrer">Enquire on Facebook <span aria-hidden="true">↗</span></a>
+              <a class="text-link" href="tel:+63283643904">Call 02 8364 3904 <span aria-hidden="true">↗</span></a>
+            </div>
+            <p class="form-notice" id="form-notice">Online sending is currently unavailable. You can still prepare and copy your trip details below, then share them with our team on Facebook. Fields marked * are required.</p>
 
             <form
               class="inquiry-form"
@@ -479,8 +548,11 @@
               method="post"
               novalidate
               data-inquiry-form
+              aria-describedby="form-notice"
             >
               <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_KEY">
+              <input type="hidden" name="service" value="">
+              <p class="selected-service" data-service-status role="status" hidden></p>
 
               <div class="form-honeypot" aria-hidden="true">
                 <label for="botcheck">Leave this field empty</label>
@@ -489,7 +561,7 @@
 
               <div class="form-grid">
                 <div class="form-field">
-                  <label for="full-name">Full name</label>
+                  <label for="full-name">Full name *</label>
                   <input
                     id="full-name"
                     type="text"
@@ -503,7 +575,7 @@
                 </div>
 
                 <div class="form-field">
-                  <label for="email">Email</label>
+                  <label for="email">Email *</label>
                   <input
                     id="email"
                     type="email"
@@ -517,26 +589,71 @@
                 </div>
 
                 <div class="form-field">
-                  <label for="mobile-number">Mobile number</label>
+                  <label for="mobile-number">Mobile number <span class="optional">(optional)</span></label>
                   <input
                     id="mobile-number"
                     type="tel"
                     name="mobile_number"
                     autocomplete="tel"
                     inputmode="tel"
+                    placeholder="e.g. +63 917 123 4567"
                     aria-describedby="mobile-number-error"
-                    required
                     data-validate
                   >
                   <p class="field-error" id="mobile-number-error" data-error-for="mobile-number"></p>
                 </div>
 
+                <div class="form-field">
+                  <label for="destination">Destination *</label>
+                  <input
+                    id="destination"
+                    type="text"
+                    name="destination"
+                    autocomplete="off"
+                    placeholder="Where would you like to go?"
+                    aria-describedby="destination-error"
+                    required
+                    data-validate
+                  >
+                  <p class="field-error" id="destination-error" data-error-for="destination"></p>
+                </div>
+
+                <div class="form-field">
+                  <label for="travel-dates">Preferred travel dates <span class="optional">(optional)</span></label>
+                  <input
+                    id="travel-dates"
+                    type="text"
+                    name="preferred_travel_dates"
+                    autocomplete="off"
+                    placeholder="e.g. June 2027"
+                    aria-describedby="travel-dates-help travel-dates-error"
+                    data-validate
+                  >
+                  <p class="field-help" id="travel-dates-help">Enter a date or preferred date range. Flexible? Tell us here.</p>
+                  <p class="field-error" id="travel-dates-error" data-error-for="travel-dates"></p>
+                </div>
+
+                <div class="form-field">
+                  <label for="travelers">Number of travelers <span class="optional">(optional)</span></label>
+                  <input
+                    id="travelers"
+                    type="number"
+                    name="number_of_travelers"
+                    min="1"
+                    inputmode="numeric"
+                    aria-describedby="travelers-error"
+                    data-validate
+                  >
+                  <p class="field-error" id="travelers-error" data-error-for="travelers"></p>
+                </div>
+
                 <div class="form-field form-field-full">
-                  <label for="message">Message</label>
+                  <label for="message">What do you have in mind? *</label>
                   <textarea
                     id="message"
                     name="message"
                     rows="6"
+                    placeholder="Tell us about the trip, occasion or travel arrangements you’re considering."
                     aria-describedby="message-error"
                     required
                     data-validate
@@ -547,30 +664,26 @@
 
               <div class="form-actions">
                 <div class="submit-group">
-                  <button class="button button-primary submit-button" type="submit" data-submit-button>
-                    <span data-submit-label>Send Inquiry</span>
+                  <button class="button button-primary submit-button" type="button" data-submit-button>
+                    <span data-submit-label>Copy my trip details</span><span aria-hidden="true">↗</span>
                   </button>
                   <p class="consent-text">
-                    By submitting, you agree that Seven Continents Travel &amp; Tours may contact you about your
-                    inquiry.
+                    Your details are only sent when online sending is available. Copying keeps them on your device until you choose to share them.
                   </p>
                 </div>
                 <p class="form-status" role="status" aria-live="polite" tabindex="-1" data-form-status></p>
               </div>
             </form>
+            <noscript><p class="form-notice">The trip planner needs JavaScript. Please call us or use the Facebook link above to enquire.</p></noscript>
           </div>
 
           <aside class="contact-panel reveal" id="contact" aria-labelledby="contact-title">
-            <h2 id="contact-title">Contact</h2>
+            <p class="eyebrow">A real conversation</p>
+            <h2 id="contact-title">We’re here<br>to help.</h2>
             <dl class="contact-list">
               <div>
                 <dt>Address</dt>
-                <dd>
-                  2/F Bluebay Walk Metro Park,<br>
-                  Macapagal Blvd. cor<br>
-                  Edsa Extension<br>
-                  Pasay City Manila, 1300
-                </dd>
+                <dd>2/F Bluebay Walk Metro Park,<br>Macapagal Blvd. cor<br>Edsa Extension<br>Pasay City Manila, 1300</dd>
               </div>
               <div>
                 <dt>Phone</dt>
@@ -583,12 +696,7 @@
               <div>
                 <dt>Facebook</dt>
                 <dd>
-                  <a
-                    class="social-link"
-                    href="http://www.facebook.com/sevencontinentstravelandtours"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a class="social-link" href="https://www.facebook.com/sevencontinentstravelandtours" target="_blank" rel="noopener noreferrer">
                     <svg viewBox="0 0 24 24" aria-hidden="true">
                       <path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.413c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.235 2.686.235v2.975h-1.513c-1.491 0-1.956.931-1.956 1.887v2.26h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073Z"></path>
                     </svg>
@@ -599,12 +707,7 @@
               <div>
                 <dt>Instagram</dt>
                 <dd>
-                  <a
-                    class="social-link"
-                    href="https://www.instagram.com/7continentsPH/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a class="social-link" href="https://www.instagram.com/7continentsPH/" target="_blank" rel="noopener noreferrer">
                     <svg class="social-icon-instagram" viewBox="0 0 24 24" aria-hidden="true">
                       <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
                       <path d="M16 11.37a4 4 0 1 1-4.63-4.63A4 4 0 0 1 16 11.37z"></path>
@@ -615,6 +718,7 @@
                 </dd>
               </div>
             </dl>
+            <a class="button button-outline" href="https://www.google.com/maps/search/?api=1&amp;query=Bluebay+Walk+Metro+Park+Macapagal+Boulevard+Pasay+City" target="_blank" rel="noopener noreferrer">Find Bluebay Walk <span aria-hidden="true">↗</span></a>
           </aside>
         </div>
       </section>
@@ -649,9 +753,7 @@
         <div>
           <h2 class="footer-heading">Contact</h2>
           <address class="footer-contact">
-            <span>
-              Address: 2/F Bluebay Walk Metro Park, Macapagal Blvd. cor Edsa Extension, Pasay City Manila, 1300
-            </span>
+            <span>2/F Bluebay Walk Metro Park, Macapagal Blvd. cor Edsa Extension, Pasay City Manila, 1300</span>
             <span>Phone: <a href="tel:+63283643904">02 8364 3904</a></span>
             <span>Mon-Fri, 9:00 a.m.-5:00 p.m.</span>
           </address>
@@ -661,12 +763,7 @@
           <h2 class="footer-heading">Follow Us</h2>
           <ul class="footer-links">
             <li>
-              <a
-                class="footer-social"
-                href="http://www.facebook.com/sevencontinentstravelandtours"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a class="footer-social" href="https://www.facebook.com/sevencontinentstravelandtours" target="_blank" rel="noopener noreferrer">
                 <svg viewBox="0 0 24 24" aria-hidden="true">
                   <path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.413c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.235 2.686.235v2.975h-1.513c-1.491 0-1.956.931-1.956 1.887v2.26h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073Z"></path>
                 </svg>
@@ -674,12 +771,7 @@
               </a>
             </li>
             <li>
-              <a
-                class="footer-social"
-                href="https://www.instagram.com/7continentsPH/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a class="footer-social" href="https://www.instagram.com/7continentsPH/" target="_blank" rel="noopener noreferrer">
                 <svg class="social-icon-instagram" viewBox="0 0 24 24" aria-hidden="true">
                   <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
                   <path d="M16 11.37a4 4 0 1 1-4.63-4.63A4 4 0 0 1 16 11.37z"></path>
@@ -694,7 +786,12 @@
 
       <div class="container footer-bottom">
         <p>&copy; 2026 Seven Continents Travel &amp; Tours</p>
+        <a href="#main-content" class="back-to-top">Back to top <span aria-hidden="true">↑</span></a>
       </div>
     </footer>
+    <nav class="mobile-contact" aria-label="Quick contact">
+      <a href="tel:+63283643904">Call the team <span aria-hidden="true">↗</span></a>
+      <a href="https://www.facebook.com/sevencontinentstravelandtours" target="_blank" rel="noopener noreferrer">Enquire on Facebook <span aria-hidden="true">↗</span></a>
+    </nav>
   </body>
 </html>
